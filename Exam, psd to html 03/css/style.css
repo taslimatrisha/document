@@ -1,0 +1,243 @@
+{font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+body{
+    background: 100% 100%;
+}
+
+.one{
+    background: url(../images/banner01.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.logo{
+    margin-left: 7vw;
+}
+.banner_content{
+    margin-top: 7vw;
+    padding-bottom: 10vw;
+   
+}
+.nav_icon{
+    background: #4884da87;
+}
+.meno ul li{
+    
+}
+.brand{
+    font-size: 4vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.paragraph{
+    margin-left: 23vw;
+    font-family: 'Nunito', sans-serif;
+}
+.head_title button{
+    max-width: 12vw;
+    width: 12vw;
+    color: white;
+    border-radius: 20vw;
+    font-family: 'Poppins', sans-serif;
+}
+.two{
+    background: url(../images/banner02.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.two_head p{
+    margin: 2vw 2vw 2vw 25vw;
+}
+.card_one{
+    margin: 7vw 2vw 2vw 5vw;
+}
+
+.three{
+    background: url(../images/banner03.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.three_one {
+    border: 7px solid white;
+    border-radius: 50%;
+    margin: 7vw 7vw;
+    padding: 3vw 0vw;
+   width: 15vw;
+}
+.three_one p{
+    font-size: 2vw;
+}
+.six,.four{
+    background:#5380c1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tringle{
+    width: 4vw;
+    max-width: 5vw;
+    margin: 7vw 4vw;
+    animation: trisha 10s infinite;
+    
+}
+.bottom{
+    margin: 23vw 0vw 0vw -9vw;
+}
+.four_content h1{
+    margin: 4vw 0vw 0vw 0vw;
+    font-size: 5vw;
+    color: white;
+}
+.right{
+    margin: 7vw 0vw 0vw 37vw;
+}
+.tringle_bottom{
+    width: 4vw;
+    max-width: 5vw;
+    margin: 20vw 0vw 0vw 33vw;
+}
+
+@keyframes trisha{
+
+0%{
+    rotate: 90deg;
+   
+}
+50%{
+    rotate: 360deg;
+}
+75%{
+    rotate: 360deg;
+}
+100%{
+    rotate: 360deg;
+}
+}
+.five{
+    background:#739ee3;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.five_title{
+    margin: 17vw 0vw 0vw 0vw !important;
+}
+.card_button{
+    border-radius: 2vw;
+    width: 13vw;
+    color: white;
+}
+.card_two{
+    height: fit-content;
+    border-radius: 1vw;
+    
+    margin: 2vw 0vw 0vw 7vw;
+}
+.card_two h2{
+    color: #739ee3;
+    margin: 2vw;
+}
+.seven{
+    background: url(../images/banner05.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.eight{
+    background: url(../images/banner04.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.eight h3{
+    margin: 0vw 0vw 0vw 13vw;
+    padding: 28vw 2vw 3vw 2vw;
+}
+.eight h5{
+   
+    padding: 0vw 9vw 12vw 7vw;
+}
+.nine{
+    background: #343434;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -1vw;
+    padding: 6vw 0vw 5vw 0vw;
+}
+.footer_two ul li{
+    list-style: none;
+}
+.footer_two ul li a{
+    text-decoration: none;
+    color: rgb(217, 213, 213);
+}
+.fa-brands{
+    font-size: 2vw;
+}
+.footer_two h5{
+    
+    margin: 2vw;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    body{
+        
+    }
+    .mobile{
+        display: inline-block;
+    }
+    .paragraph {
+        margin-left: 2vw;
+        font-family: 'Nunito', sans-serif;
+        width: 100% !important;
+    }
+    .head_title button {
+        max-width: 43vw;
+        width: 39vw !important;
+    }
+    .three_one {
+        margin: 3vw 31vw;
+        padding: 3vw 0vw;
+        width: 38vw;
+    }
+    .three_one p {
+        font-size: 5vw;
+    }
+    .four_content{
+        width: 100% !important;
+    text-align: -webkit-center;
+    }
+    .four_content p{
+        width: 100% !important;
+    }
+    .four_content h1 {
+        margin: 1vw 0vw 6vw 1vw !important;
+        font-size: 10vw;
+    }
+    .six_img img{
+        width: 21vw !important;
+    }
+    .card_one {
+        margin: 6vw 0vw 0vw 0vw;
+    }
+    .card_button {
+        border-radius: 5vw;
+        width: 44vw;
+        
+    }
+    .mobile_img{
+        width: 100% !important;
+    }
+
+    .mobile_button{
+        margin: 2vw 23vw !important;
+    }
+    .two_head p {
+        margin: 1vw 2vw 2vw 2vw;
+        width: 95% !important;
+      
+    }
+    .two_head h1{
+        font-size: 12vw !important;
+    }
+    .card_two{
+        width: 69vw;
+    margin: 4vw 2vw 2vw 15vw;
+    }
+}
